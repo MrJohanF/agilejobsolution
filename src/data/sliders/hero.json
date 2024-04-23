@@ -1,0 +1,31 @@
+{
+    "items": [
+        {
+            "image": "img/slide1.jpeg",
+            "title": "Streamline Your Operations",
+            "text": "Experience top-tier talent and innovative solutions with our comprehensive outsourcing services.",
+            "button": {
+                "label": "Discover More",
+                "link": "/contact"
+            }
+        },
+        {
+            "image": "img/project5.jpeg",
+            "title": "Enhance Your Team's Capabilities",
+            "text": "Connect with industry-leading professionals and expand your workforce effortlessly.",
+            "button": {
+                "label": "Join Us Today",
+                "link": "/services"
+            }
+        },
+        {
+            "image": "img/articles6.jpeg",
+            "title": "Focus on What Matters Most",
+            "text": "Let us handle the complexities of staffing and project management, so you can concentrate on growing your business.",
+            "button": {
+                "label": "Learn More",
+                "link": "/contact"
+            }
+        }
+    ]
+}
