@@ -1453,8 +1453,10 @@ span.counter {
 }
 
 .featured-slider-one {
-    min-height: 100vh;
+    min-height: $adaptable-size;
 }
+
+
 .featured-slider-one .f-slider-one-data,
 .featured-slider-one .swiper-slide.active .f-slider-one-data {
     position: absolute;

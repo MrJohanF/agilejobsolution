@@ -87,7 +87,6 @@ export const sliderProps = {
     },
   },
   projectsSlider: {
-    slidesPerView: 2,
     spaceBetween: 30,
     speed: 800,
     autoplay: {
@@ -96,6 +95,17 @@ export const sliderProps = {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 2,
+      },
     },
   },
   projects2Slider: {
@@ -115,7 +125,7 @@ export const sliderProps = {
     },
   },
   teamSlider: {
-    slidesPerView: 'auto',
+    slidesPerView: 3,
     spaceBetween: 30,
     speed: 800,
     loop: true,
@@ -123,6 +133,17 @@ export const sliderProps = {
     navigation: {
       prevEl: ".team-slider-nav .swiper-nav-prev",
       nextEl: ".team-slider-nav .swiper-nav-next",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 1,
+      },
+      992: {
+        slidesPerView: 3,
+      },
     },
   },
   certificatesSlider: {

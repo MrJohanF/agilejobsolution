@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const HeroSlider = () => {
   return (
-    <section className="featured-slider-one" style={{"background": "grey", "minHeight": "100vh"}}>
+    <section className="featured-slider-one" style={{"background": "grey"}}>
         <div className="containe">
             <Swiper
               {...sliderProps.heroSlider}

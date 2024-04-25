@@ -14,9 +14,9 @@
         },
         {
             "value": "21",
-            "label": "Locations",
+            "label": "Projects",
             "plus": false,
-            "title": "Sites in development"
+            "title": "Projects completed"
         }
     ]
 }
