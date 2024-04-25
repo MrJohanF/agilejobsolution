@@ -125,11 +125,11 @@ export const sliderProps = {
     },
   },
   teamSlider: {
-    slidesPerView: 3,
+    slidesPerView: 1,
     spaceBetween: 30,
     speed: 800,
     loop: true,
-    centeredSlides: true,
+    centeredSlides: false,
     navigation: {
       prevEl: ".team-slider-nav .swiper-nav-prev",
       nextEl: ".team-slider-nav .swiper-nav-next",
