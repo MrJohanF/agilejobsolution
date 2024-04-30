@@ -51,7 +51,7 @@ const Blog = ( { posts, totalPosts, currentPage } ) => {
                   <h3>Recent Posts</h3>
                   <ul>
                     <li>
-                      <p>Consulted admitting is power acuteness.</p>
+                      <p>Play To Your Strengths And Supercharge Your Business</p>
                       <Link href="/blog/play-to-your-strength-and-supercharge-your-business">
                         <i className="fa-solid fa-arrow-up-long"></i>
                       </Link>

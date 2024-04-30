@@ -22,7 +22,7 @@ const DefaultFooter = () => {
                             <img src="/img/blog-author-img-2.jpg" alt="Contact Images" />
                         </figure>
                     </div>
-                    <p>Sales representative <span>+1 (251) 344 0 66</span> free call !</p>
+                    <p>Sales representative <span>+1 (932) 721-8775</span> Free call</p>
                 </div>
                 <Link href="/contact" className="theme-btn">
                     Get a Consultation <i className="fa-solid fa-angles-right" />

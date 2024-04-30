@@ -94,9 +94,9 @@ const PostsDetail = ( props ) => {
                           </figure>
                         </div>
                         <div className="c-data">
-                          <h4>Jonathom Doe</h4>
+                          <h4>ElaineExpert</h4>
                           <span>July 31, 2022</span>
-                          <p>Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen.</p>
+                          <p>Excellent post! I think a lot of people underestimate the importance of a good proofread. It’s not just about catching typos, it's about ensuring your message is clear and professional</p>
                           <a className="c-r-btn" href="#.">Reply</a>
                         </div>
                       </div>
@@ -109,9 +109,9 @@ const PostsDetail = ( props ) => {
                           </figure>
                         </div>
                         <div className="c-data">
-                          <h4>Jonathom Doe</h4>
-                          <span>July 31, 2022</span>
-                          <p>Delivered ye sportsmen zealously arranging frankness estimable as. Nay any article enabled musical shyness yet sixteen.</p>
+                          <h4>WriterRick</h4>
+                          <span>May 31, 2023</span>
+                          <p>How often do you guys find that you need to break from your writing before you can effectively proofread? I usually need at least a few hours away from it.</p>
                           <a className="c-r-btn" href="#.">Reply</a>
                         </div>
                       </div>
@@ -149,20 +149,20 @@ const PostsDetail = ( props ) => {
                   <h3>Recent Posts</h3>
                   <ul>
                     <li>
-                      <p>Consulted admitting is power acuteness.</p>
-                      <a href="/blog/">
+                      <p>Play To Your Strengths And Supercharge Your Business</p>
+                      <a href="/blog/play-to-your-strength-and-supercharge-your-business-4">
                         <i className="fa-solid fa-arrow-up-long"></i>
                       </a>
                     </li>
                     <li>
-                      <p>Consulted admitting is power acuteness.</p>
-                      <a href="blog-detail.html">
+                      <p>10 Content Proofreading Tips To Catch More Avoidable</p>
+                      <a href="/blog/10-content-proof-tips-to-catch-goofs-4">
                         <i className="fa-solid fa-arrow-up-long"></i>
                       </a>
                     </li>
                     <li>
-                      <p>Consulted admitting is power acuteness.</p>
-                      <a href="blog-detail.html">
+                      <p>5 Steps To Create An Outstanding Marketing Plan</p>
+                      <a href="/blog/5-steps-to-create-marketing-plan-4">
                         <i className="fa-solid fa-arrow-up-long"></i>
                       </a>
                     </li>
@@ -172,16 +172,16 @@ const PostsDetail = ( props ) => {
                   <h3>Recent Comments</h3>
                   <ul>
                     <li>
-                      <h4>Thomas Walkar</h4>
-                      <p>Consulted admitting is power acuteness.</p>
+                      <h4>AlexWrites</h4>
+                      <p>Great tips!</p>
                     </li>
                     <li>
-                      <h4>Thomas Walkar</h4>
-                      <p>Consulted admitting is power acuteness.</p>
+                      <h4>CreativeKay</h4>
+                      <p>Printing out the document really helps me</p>
                     </li>
                     <li>
-                      <h4>Thomas Walkar</h4>
-                      <p>Consulted admitting is power acuteness.</p>
+                      <h4>ElaineExpert</h4>
+                      <p>Homophones are my nemesis!</p>
                     </li>
                   </ul>
                 </div>

@@ -28,7 +28,7 @@ const About = () => {
               <div className="who-we-are">
                 <div>
                   <h3>Who We Are?</h3>
-                  <p>We are resolute in our mission to not only make a difference to the lives of people today but to also leave a legacy for future generations and the planet we live in. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                  <p>Welcome to Agile Staff Solutions, where our passion for excellence drives us to provide top-tier personnel and management solutions to businesses across various industries. Founded in 2018, we have steadily grown into a trusted partner for companies seeking to enhance their operational capabilities through skilled outsourcing.</p>
                 </div>
                 <figure>
                   <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />
@@ -38,13 +38,12 @@ const About = () => {
             <div className="col-lg-5 offset-lg-1">
               <div className="who-we-are space">
                 <div>
-                  <h3>What's in it for me?</h3>
+                  <h3>Our Values</h3>
                   <ul>
-                    <li><i className="fa-solid fa-circle-dot" /> High performing, low carbon concrete solution</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Value for workers' skills</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Excellent standards in construction</li>
-                    <li><i className="fa-solid fa-circle-dot" /> An inclusive industry</li>
-                    <li><i className="fa-solid fa-circle-dot" /> Don't take our word for it</li>
+                    <li><i className="fa-solid fa-circle-dot" /> We operate with honesty and uphold the highest standards of moral and ethical conduct.</li>
+                    <li><i className="fa-solid fa-circle-dot" /> We continuously seek innovative solutions to improve our services and the outcomes for our clients.</li>
+                    <li><i className="fa-solid fa-circle-dot" /> We are committed to excellence in everything we do, from client service to the personal development of our employees.</li>
+                    <li><i className="fa-solid fa-circle-dot" /> We believe in building strong, collaborative relationships with our clients, ensuring that we are not just providers but partners in their success.</li>
                   </ul>
                 </div>
                 <figure>
@@ -80,8 +79,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   1.
                 </div>
-                <h3>Phase Plan</h3>
-                <p>This step connects the design process and its miles tones with construction.</p>
+                <h3>Initial Consultation</h3>
+                <p>Discuss your business needs and staffing challenges to tailor our services.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -89,8 +88,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   2.
                 </div>
-                <h3>Design Pull Plan</h3>
-                <p>We work with the design team to establish a detailed plan for reaching our goals.</p>
+                <h3>Talent Matching</h3>
+                <p>Utilize advanced tools to match the right talent to your specific requirements.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -98,8 +97,8 @@ const About = () => {
                 <div className="y-box d-flex-all">
                   3.
                 </div>
-                <h3>Coordinated Layout</h3>
-                <p>This process creates a single point of truth: drawings all project.</p>
+                <h3>Management</h3>
+                <p>Seamlessly integrate our personnel into your team with full support and training</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12" >
@@ -108,7 +107,7 @@ const About = () => {
                   4.
                 </div>
                 <h3>Quality Control</h3>
-                <p>Having geometry worked out in the Layout step, prior to construction.</p>
+                <p>Provide continuous management and performance assessments</p>
               </div>
             </div>
           </div>
@@ -129,23 +128,19 @@ const About = () => {
             </div>
             <div className="col-lg-6" >
               <div className="data">
-                <h2>Key Benefits</h2>
+                <h2>Our Services</h2>
                 <ul>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p>Labor expenses are a common target for cost reduction measures in the construction industry</p>
+                    <p>Talent Acquisition: We source and place top talent where it is needed most, tailored to the specific requirements of each client.</p>
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p> A good material management system includes proper communication, scheduling,  and tracking tools.</p>
+                    <p>Personnel Management: We offer full-scale management of outsourced staff, including payroll, compliance, and performance evaluations.</p>
                   </li>
                   <li>
                     <i className="fa-solid fa-check" />
-                    <p>Faster supplies can be used upon delivery to a construction site, the better.</p>
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check" />
-                    <p>Effective material management systems not only ensure that materials are in the right place</p>
+                    <p>Strategic Staffing Solutions: We design staffing strategies that align with the overarching goals of our clients, enhancing their workforce capabilities.</p>
                   </li>
                 </ul>
               </div>
