@@ -1,37 +1,33 @@
 ---
 #preview
-title: Sports Complex Construction
+title: Efficiency Optimization for a Metal Fabrication Plant
 image: /img/project4.jpeg
-short: "Modern sports complexes for recreation"
-location: "Dubai"
+short: "We supplied a specialized team of process improvement..."
+location: "US, Texas"
 dates: "2004-2005"
 
 #full details
 checklist:
     title: What's Included in Project
     items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+        - The implementation of new fabrication techniques and quality control measures resulted in a 30% reduction in waste and a 20% increase in production speed, significantly boosting the plant’s profitability and environmental sustainability.
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Automation Solutions
+          value: Custom solutions for specific production needs
           icon: /img/icon-pd-1.svg
 
-        - label: Owner
-          value: Communities Development
+        - label: Production Increase
+          value: 40% higher output
           icon: /img/icon-pd-2.svg
         
-        - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+        - label: Cost Reduction
+          value: "Lower operating costs by 25%"
           icon: /img/icon-pd-3.svg
         
-        - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+        - label: Quality Control
+          value: "Enhanced product consistency"
           icon: /img/icon-pd-4.svg
 
 
@@ -50,6 +46,10 @@ slider:
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Project Overview
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+We supplied a specialized team of process improvement experts and skilled metalworkers to overhaul the production lines at a metal fabrication plant. The initiative aimed to enhance operational efficiency and product quality through advanced techniques and equipment.
+
+### Challenges Addressed
+
+The plant was struggling with outdated processes that led to high waste levels and prolonged production times. There was a critical need to integrate more efficient and sustainable practices.

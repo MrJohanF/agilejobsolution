@@ -1,37 +1,33 @@
 ---
 #preview
-title: Project Horizon Redevelopment
+title: Automation Upgrade for an Automotive Assembly Line
 image: /img/project1.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "United States"
+short: "We provided a team of automation specialists and engineers…"
+location: "US, Texas"
 dates: "1999-2000"
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: Outcomes
     items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+    - The upgraded assembly line achieved a 50% increase in production speed and a 40% decrease in defects. The integration was completed with minimal downtime, allowing the client to quickly benefit from the improvements.
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Production Efficiency
+          value: Enhancing output capacity
           icon: /img/icon-pd-1.svg
 
-        - label: Owner
-          value: Communities Development
+        - label: Technological Integration
+          value: Implementing state-of-the-art automation
           icon: /img/icon-pd-2.svg
         
-        - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+        - label: Quality Improvement
+          value: "Reducing defect rates significantly."
           icon: /img/icon-pd-3.svg
         
-        - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+        - label: Minimal Downtime
+          value: "Quick integration, maximizing operational time."
           icon: /img/icon-pd-4.svg
 
 
@@ -50,6 +46,10 @@ slider:
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Project Overview
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+We provided a team of automation specialists and engineers to an automotive manufacturer to upgrade their assembly line with the latest robotic technology and automation systems. The project aimed to increase production capacity and improve assembly precision.
+
+### Challenges Addressed
+
+The client needed to modernize their production line to keep up with rising demand and reduce human error in assembly processes. Integrating new technology while minimizing downtime was crucial.

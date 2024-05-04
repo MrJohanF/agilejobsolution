@@ -1,37 +1,33 @@
 ---
 #preview
-title: Complete Office Renovation
+title: High-Scale Staffing for a Major Infrastructure Project
 image: /img/project3.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "New York"
+short: "The project was completed three weeks ahead of schedule…"
+location: "US, Texas"
 dates: "1994-1999"
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: Outcomes
     items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+        - The project was completed three weeks ahead of schedule, under budget, and met all safety and quality standards. Our staffing services enabled seamless operations and project execution, showcasing our capability to manage large-scale industrial manpower needs.
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Large-Scale Staffing
+          value: Efficiently managing a workforce of over 300
           icon: /img/icon-pd-1.svg
 
-        - label: Owner
-          value: Communities Development
+        - label: Project Efficiency
+          value: Delivering ahead of schedule
           icon: /img/icon-pd-2.svg
         
-        - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+        - label: Safety Compliance
+          value: "Maintaining a zero-incident record"
           icon: /img/icon-pd-3.svg
         
-        - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+        - label: On-Time Delivery
+          value: "Ensuring project milestones are met"
           icon: /img/icon-pd-4.svg
 
 
@@ -50,6 +46,10 @@ slider:
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Project Overview
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+We provided comprehensive staffing solutions for a large-scale infrastructure project, supplying over 300 skilled workers, including civil engineers, construction workers, and safety inspectors, to ensure the project was completed efficiently and safely.
+
+### Challenges Addressed
+
+The project required a diverse range of skills and a high number of personnel within a short timeframe. Coordinating such a large workforce and maintaining high safety and quality standards were the main challenges.

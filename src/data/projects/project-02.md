@@ -1,37 +1,33 @@
 ---
 #preview
-title: Charles Dedham Workspace
+title: Environmental Compliance and Waste Reduction for a Paper Mill
 image: /img/project2.jpeg
-short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
-location: "United Kingdom"
+short: "Our environmental engineers collaborated with a paper manufacturing…"
+location: "US, Texas"
 dates: "1999-2000"
 
 #full details
 checklist:
-    title: What's Included in Project
+    title: Outcomes
     items:
-        - Dedication to client satisfaction
-        - Teamwork and collabration
-        - Being leader in our profession
-        - Teamwork and collabration
-        - Pride in our works and excellences
+      - The project successfully reduced waste production by 60% and increased recycling rates, helping the client avoid hefty compliance fines and improving their public image as a responsible corporate entity.
 
 details:
     items:
-        - label: Sectors
-          value: Affordable Housing
+        - label: Environmental Sustainability
+          value: Adopting eco-friendly processes
           icon: /img/icon-pd-1.svg
 
-        - label: Owner
-          value: Communities Development
+        - label: Waste Management
+          value: Effective disposal and treatment solutions.
           icon: /img/icon-pd-2.svg
         
-        - label: Square Feet
-          value: "Phase 1: 147,000 - Phase 2: 147,000"
+        - label: Regulatory Compliance
+          value: "Meeting strict environmental standards"
           icon: /img/icon-pd-3.svg
         
-        - label: Project Date
-          value: "Started: 1990 - Ending: 2000"
+        - label: Recycling Enhancement
+          value: "Boosting material reuse and recycling"
           icon: /img/icon-pd-4.svg
 
 
@@ -50,6 +46,10 @@ slider:
           alt: "image"
 ---
 
-Most innovative and successful builders and real estate enterprises in the country, has been selected for the design-build expansion of Airsides A and E at Tampa International Airport. This expansion will support Hillsborough County Aviation Authority and Tampa International Airport as they project up to 38.8 million annual passengers, 402,000 tons of cargo per year and 344,000 annual aircraft operations.
+### Project Overview:
 
-I learned that this waste product could be stabilised, reducing the potential for leachable heavy metals by 96%. Research has shown that the **Construction patent pending process demonstrates** that after metal extraction and recycling, any residual chemicals can be securely contained when utilised in hydraulically bound concrete products.
+Our environmental engineers collaborated with a paper manufacturing facility to enhance its waste management systems and ensure compliance with new environmental regulations. The focus was on reducing waste and recycling process byproducts.
+
+### Challenges Addressed:
+
+The client faced stringent environmental regulations and needed to drastically reduce their waste output. There was also a need to improve efficiency in processing and handling waste materials.
