@@ -28,7 +28,7 @@ const About = () => {
               <div className="who-we-are">
                 <div>
                   <h3>Who We Are?</h3>
-                  <p>Welcome to Agile Staff Solutions, where our passion for excellence drives us to provide top-tier personnel and management solutions to businesses across various industries. Founded in 2018, we have steadily grown into a trusted partner for companies seeking to enhance their operational capabilities through skilled outsourcing.</p>
+                  <p>Welcome to Agile Job Solution, where our passion for excellence drives us to provide top-tier personnel and management solutions to businesses across various industries. Founded in 2018, we have steadily grown into a trusted partner for companies seeking to enhance their operational capabilities through skilled outsourcing.</p>
                 </div>
                 <figure>
                   <img className="w-100" src="/img/gallery-1.jpeg" alt="About Image One" />

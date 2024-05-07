@@ -1,6 +1,6 @@
 {
     "settings": {
-        "siteName": "Agile Solutions",
+        "siteName": "Agile Job Solution",
         "preloader": {
             "image": "/img/Builty-Logo-Black-Home.svg",
             "alt": "logo"
@@ -44,7 +44,7 @@
             "tel": "+1 (932) 721-8775",
             "email": "info@agilejobsolution.com"
         },
-        "copy": "Agile Staff Solutions <i class='fa-solid fa-heart'></i> © 2023 <a href='https://github.com/MrJohanF'>MrJohanF</a> All rights reserved"
+        "copy": "Agile Job Solution <i class='fa-solid fa-heart'></i> © 2023 <a href='https://github.com/MrJohanF'>MrJohanF</a> All rights reserved"
     },
     "social": [
         {

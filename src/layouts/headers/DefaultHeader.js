@@ -242,7 +242,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
 
             <h3>Get in touch</h3>
             <p className="num">+1 (932) 721-8775</p>
-            <p className="adrs">info@agilejobsolutions@.com</p>
+            <p className="adrs">info@agilejobsolution@.com</p>
 
             <div className="social-medias">
               {appData.social.map((item, key) => (
