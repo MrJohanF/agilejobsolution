@@ -30,6 +30,7 @@ echo "Updating .gitignore file..."
 if [ ! -f .gitignore ]; then
     echo ".next" > .gitignore
     echo "node_modules" >> .gitignore
+    echo "out" >> .gitignore
 fi
 
 # Add all files to staging area
