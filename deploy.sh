@@ -48,6 +48,10 @@ for entry in "${gitignore_entries[@]}"; do
     fi
 done
 
+# Add all files to staging area
+printf "Staging changes...\n"
+git add .
+
 # Commit the changes
 printf "Committing changes... \n"
 git commit -m "Deploy contents of out"
