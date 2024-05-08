@@ -27,6 +27,8 @@ cp -r out/. .
 # Optionally, clear the out directory after copying
 echo "Removing the out directory..."
 rm -rf .next
+rm -rf _next
+rm -rf out
 
 
 echo "Updating .gitignore file..."
