@@ -24,12 +24,6 @@ git rm -rf .
 echo "Copying files from out directory to the project root..."
 cp -r out/. .
 
-# Optionally, clear the out directory after copying
-echo "Removing the out directory..."
-rm -rf .next
-rm -rf _next
-rm -rf out
-
 
 echo "Updating .gitignore file..."
 # Create .gitignore if it doesn't exist and add .next and node_modules to it
@@ -55,4 +49,12 @@ echo "Changes pushed successfully."
 echo "Switching back to the main branch $CURRENT_BRANCH and cleaning up..."
 git checkout "$CURRENT_BRANCH"
 git branch -D "$TMP_BRANCH"
+
+
+# Optionally, clear the out directory after copying
+echo "Removing the out directory..."
+rm -rf .next
+rm -rf _next
+rm -rf out
+
 echo "Cleanup complete."
