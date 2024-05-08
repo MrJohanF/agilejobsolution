@@ -1,61 +1,70 @@
 #!/bin/bash
-# Ensure we're starting with a clean state
 
-echo "Starting build process..."
+set -euo pipefail
+
+# Ensure we're starting with a clean state
+printf "Starting build process... \n"
 npm run build
-echo "Build completed."
+printf "Build completed. \n"
 
 
 # Store the current branch name before any changes
 CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-echo "Current branch saved as $CURRENT_BRANCH."
+printf "Current branch saved as $CURRENT_BRANCH. \n"
 
 
 # Create a new orphan branch for deployment
 TMP_BRANCH="temporary-$(date +%s)"
-echo "Creating a new temporary branch: $TMP_BRANCH."
+printf "Creating a new temporary branch: $TMP_BRANCH. \n"
 git checkout --orphan "$TMP_BRANCH"
 
 # Remove all files from the staging area to clean the working directory
-echo "Cleaning working directory..."
+printf "Cleaning working directory... \n"
 git rm -rf .
 
+
+# Check if the 'out' directory exists
+if [ ! -d "out" ]; then
+    printf "Error: 'out' directory not found. Exiting...\n"
+    exit 1
+fi
+
+
 # Copy the necessary files from the 'out' directory to the root directory
-echo "Copying files from out directory to the project root..."
+printf "Copying files from out directory to the project root... \n"
 cp -r out/. .
 
 
-echo "Updating .gitignore file..."
-# Create .gitignore if it doesn't exist and add .next and node_modules to it
-if [ ! -f .gitignore ]; then
-    echo ".next" > .gitignore
-    echo "node_modules" >> .gitignore
-    echo "out" >> .gitignore
-fi
+printf "Updating .gitignore file... \n"
 
-# Add all files to staging area
-echo "Staging changes..."
-git add .
+# Create .gitignore if it doesn't exist
+touch .gitignore
+
+# Array of entries to be added to .gitignore
+gitignore_entries=(".next" "node_modules" "out")
+for entry in "${gitignore_entries[@]}"; do
+    if ! grep -q "^$entry$" .gitignore; then
+        echo "$entry" >> .gitignore
+    fi
+done
 
 # Commit the changes
-echo "Committing changes..."
+printf "Committing changes... \n"
 git commit -m "Deploy contents of out"
 
 # Push the temporary branch to the deploy-branch on origin with force
-echo "Pushing changes to the deployment branch..."
+printf "Pushing changes to the deployment branch... \n"
 git push origin "$TMP_BRANCH:deploy-branch" --force
-echo "Changes pushed successfully."
+printf "Changes pushed successfully."
 
 # Clean up: Switch back to the main working branch and delete the temporary branch
-echo "Switching back to the main branch $CURRENT_BRANCH and cleaning up..."
+printf "Switching back to the main branch $CURRENT_BRANCH and cleaning up... \n"
 git checkout "$CURRENT_BRANCH"
 git branch -D "$TMP_BRANCH"
 
 
 # Optionally, clear the out directory after copying
-echo "Removing the out directory..."
-rm -rf .next
-rm -rf _next
-rm -rf out
+printf "Removing the out directory... \n"
+rm -rf .next _next out
 
-echo "Cleanup complete."
+printf "Cleanup complete. \n"
