@@ -24,6 +24,10 @@ git rm -rf .
 echo "Copying files from out directory to the project root..."
 cp -r out/. .
 
+# Optionally, clear the out directory after copying
+echo "Removing the out directory..."
+rm -rf .next
+
 
 echo "Updating .gitignore file..."
 # Create .gitignore if it doesn't exist and add .next and node_modules to it
