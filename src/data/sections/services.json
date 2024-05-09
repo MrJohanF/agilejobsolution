@@ -8,7 +8,7 @@
             },
             "title": "Core Planning",
             "text": "Maximize project efficiency with our Core Planning service. We provide skilled professionals to map out critical industrial processes, ensuring seamless operations from the ground up.",
-            "link": "/services/service-1"
+            "link": "/contact"
         },
         {
             "icon": {
@@ -18,7 +18,7 @@
             },
             "title": "Traditional Designs",
             "text": "Where experience meets innovation. Our seasoned industrial specialists bring proven techniques to your projects, ensuring reliable and effective execution.",
-            "link": "/services/service-2"
+            "link": "/contact"
         },
         {
             "icon": {
@@ -28,7 +28,7 @@
             },
             "title": "Quality Materials",
             "text": "Quality begins with the best resources. We source premium materials and pair them with the finest industrial talent, dedicated to excellence in every task",
-            "link": "/services/service-3"
+            "link": "/contact"
         }
     ]
 }

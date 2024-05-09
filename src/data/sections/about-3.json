@@ -6,19 +6,19 @@
             "image": "/img/service1.jpeg",
             "title": "Transportation",
             "text": "Many have raised the bar for industrial construction, not only in terms of cost, scheduling, safety and efficiency.",
-            "link": "/services/service-1"
+            "link": "/contact"
         },
         {
             "image": "/img/service2.jpeg",
             "title": "Industrial",
             "text": "Many have raised the bar for industrial construction, not only in terms of cost, scheduling, safety and efficiency.",
-            "link": "/services/service-2"
+            "link": "/contact"
         },
         {
             "image": "/img/service3.jpeg",
             "title": "Building",
             "text": "Many have raised the bar for industrial construction, not only in terms of cost, scheduling, safety and efficiency.",
-            "link": "/services/service-3"
+            "link": "/contact"
         }
     ]
 }
