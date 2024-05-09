@@ -30,6 +30,16 @@ if [ ! -d "out" ]; then
 fi
 
 
+# Additionally, move the .htaccess file to /out
+if [ -f .htaccess ]; then
+    printf "Moving .htaccess file... \n"
+    cp .htaccess out/
+else
+    printf "Error: .htaccess file not found. Exiting...\n"
+    exit 1
+fi
+
+
 # Copy the necessary files from the 'out' directory to the root directory
 printf "Copying files from out directory to the project root... \n"
 cp -r out/. .
