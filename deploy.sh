@@ -18,6 +18,16 @@ TMP_BRANCH="temporary-$(date +%s)"
 printf "Creating a new temporary branch: $TMP_BRANCH. \n"
 git checkout --orphan "$TMP_BRANCH"
 
+
+# Additionally, move the .htaccess file to /out
+if [ -f .htaccess ]; then
+    printf "Moving .htaccess file... \n"
+    cp .htaccess out/
+else
+    printf "Error: .htaccess file not found. Exiting...\n"
+    exit 1
+fi
+
 # Remove all files from the staging area to clean the working directory
 printf "Cleaning working directory... \n"
 git rm -rf .
@@ -26,16 +36,6 @@ git rm -rf .
 # Check if the 'out' directory exists
 if [ ! -d "out" ]; then
     printf "Error: 'out' directory not found. Exiting...\n"
-    exit 1
-fi
-
-
-# Additionally, move the .htaccess file to /out
-if [ -f .htaccess ]; then
-    printf "Moving .htaccess file... \n"
-    cp .htaccess out/
-else
-    printf "Error: .htaccess file not found. Exiting...\n"
     exit 1
 fi
 
