@@ -165,7 +165,7 @@ const Contact = () => {
                         <figure>
                             <img className="author" src="/img/team-1.jpg" alt="Bio Image" />
                         </figure>
-                        <h3>Jose R.</h3>
+                        <h3>Jose Martinez.</h3>
                         <p>Director of Agile Job Solution</p>
                         <figure>
                             <img src="/img/signature.png" alt="Signature Image" />
