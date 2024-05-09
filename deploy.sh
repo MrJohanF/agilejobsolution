@@ -35,6 +35,16 @@ printf "Copying files from out directory to the project root... \n"
 cp -r out/. .
 
 
+# Additionally, move the .htaccess file to the root of the temporary branch
+if [ -f .htaccess ]; then
+    printf "Moving .htaccess file... \n"
+    git mv .htaccess .
+else
+    printf "Error: .htaccess file not found. Exiting...\n"
+    exit 1
+fi
+
+
 printf "Updating .gitignore file... \n"
 
 # Create .gitignore if it doesn't exist
