@@ -18,6 +18,11 @@ TMP_BRANCH="temporary-$(date +%s)"
 printf "Creating a new temporary branch: $TMP_BRANCH. \n"
 git checkout --orphan "$TMP_BRANCH"
 
+# Check if the 'out' directory exists
+if [ ! -d "out" ]; then
+    printf "Error: 'out' directory not found. Exiting...\n"
+    exit 1
+fi
 
 # Additionally, move the .htaccess file to /out
 if [ -f .htaccess ]; then
@@ -31,13 +36,6 @@ fi
 # Remove all files from the staging area to clean the working directory
 printf "Cleaning working directory... \n"
 git rm -rf .
-
-
-# Check if the 'out' directory exists
-if [ ! -d "out" ]; then
-    printf "Error: 'out' directory not found. Exiting...\n"
-    exit 1
-fi
 
 # Copy the necessary files from the 'out' directory to the root directory
 printf "Copying files from out directory to the project root... \n"
