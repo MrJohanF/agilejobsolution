@@ -78,3 +78,14 @@ printf "Removing the out directory... \n"
 rm -rf .next _next out
 
 printf "Cleanup complete. \n"
+
+# SSH connection to deploy on Hostinger
+ssh -p 65002 u263294977@62.72.4.86 << 'EOF'
+cd public_html
+echo "Cleaning old deployment files..."
+rm -rf * .[^.]* ..?*
+echo "Cloning the deploy-branch..."
+git clone -b deploy-branch --single-branch https://github.com/MrJohanF/agilejobsolution.git .
+echo "Deployment complete."
+exit
+EOF
