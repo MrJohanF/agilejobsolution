@@ -39,21 +39,9 @@ if [ ! -d "out" ]; then
     exit 1
 fi
 
-
 # Copy the necessary files from the 'out' directory to the root directory
 printf "Copying files from out directory to the project root... \n"
 cp -r out/. .
-
-
-# Additionally, move the .htaccess file to the root of the temporary branch
-if [ -f .htaccess ]; then
-    printf "Moving .htaccess file... \n"
-    cp .htaccess .
-else
-    printf "Error: .htaccess file not found. Exiting...\n"
-    exit 1
-fi
-
 
 printf "Updating .gitignore file... \n"
 
