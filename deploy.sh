@@ -38,7 +38,7 @@ cp -r out/. .
 # Additionally, move the .htaccess file to the root of the temporary branch
 if [ -f .htaccess ]; then
     printf "Moving .htaccess file... \n"
-    git mv .htaccess .
+    cp .htaccess .
 else
     printf "Error: .htaccess file not found. Exiting...\n"
     exit 1
