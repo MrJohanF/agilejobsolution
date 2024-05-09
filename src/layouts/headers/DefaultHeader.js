@@ -165,8 +165,8 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                           </>
                         }
                         {contactButton != 1 &&
-                        <a href="tel:+19327218775" className="theme-btn">
-                          +1 (932) 721-8775 
+                        <a href="tel:+18327218775" className="theme-btn">
+                          +1 (832) 721-8775 
                           <i>
                             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="40" height="62" viewBox="0 0 40 62">
                               <defs>
@@ -241,7 +241,7 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
             </figure>
 
             <h3>Get in touch</h3>
-            <p className="num">+1 (932) 721-8775</p>
+            <p className="num">+1 (832) 721-8775</p>
             <p className="adrs">info@agilejobsolution@.com</p>
 
             <div className="social-medias">
