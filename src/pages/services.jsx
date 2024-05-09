@@ -136,11 +136,11 @@ const Services = (props) => {
             {props.services.map((item, key) => (
             <div key={`services-item-${key}`} className="col-lg-4 col-md-6 col-sm-12" >
               <div className="service-two-box">
-                <h3><Link href={`/services/${item.id}`}>{item.title}</Link></h3>
+                <h3><Link href={`/contact`}></Link></h3>
                 <p>{item.short}</p>
                 <div className="service-two-icon d-flex-all justify-content-start">
                   <img src={item.image} alt={item.title} />
-                  <Link href={`/services/${item.id}`}>
+                  <Link href={`/contact`}>
                     <i className="fa-solid fa-arrow-up-long"></i>
                   </Link>
                 </div>
