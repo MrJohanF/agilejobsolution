@@ -7,16 +7,16 @@
             "title": "Professional Experience"
         },
         {
-            "value": "300",
-            "label": "Workers",
-            "plus": false,
-            "title": "Employees in team"
-        },
-        {
             "value": "21",
             "label": "Projects",
             "plus": false,
             "title": "Projects completed"
+        },
+        {
+            "value": "300",
+            "label": "Work",
+            "plus": false,
+            "title": "Employees in team"
         }
     ]
 }
