@@ -555,6 +555,7 @@ textarea {
 }
 .acc2 .accordion-body {
     padding: 20px 45px 17px 30px;
+    white-space: pre-wrap;
     font-size: $text-sm;
 }
 .acc2 .accordion-button:focus {
