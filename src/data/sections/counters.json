@@ -14,7 +14,7 @@
         },
         {
             "value": "300",
-            "label": "Work",
+            "label": "Workers",
             "plus": false,
             "title": "Employees in team"
         }
