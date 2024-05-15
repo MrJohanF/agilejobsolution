@@ -61,8 +61,8 @@ const DefaultFooter = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-col">
-                    <h3>Newsletter</h3>
-                    <p>Signup for our weekly newsletter to get the latest news.</p>
+                    <h3>Send your HV</h3>
+                    <p>Join us sending your your email to work together.</p>
                     <form action={appData.settings.mailchimp.url} method="post" target="_blank">
                         <input type="email" name="EMAIL" placeholder="Enter your email." required />
                         <input type="hidden" name={appData.settings.mailchimp.key} />

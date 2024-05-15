@@ -7,16 +7,7 @@
             "name": "Henry Taylor",
             "role": "Head Railway Construction",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
+            
             ]
         },
         {
@@ -24,16 +15,6 @@
             "name": "Edward Jeffrey",
             "role": "Finance Department",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
@@ -41,16 +22,6 @@
             "name": "Nicholas Larry",
             "role": "Railway Manager",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
@@ -58,16 +29,6 @@
             "name": "Stephen Jones",
             "role": "Creative Worker",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
@@ -75,16 +36,6 @@
             "name": "Eric Scot",
             "role": "Cheif Railway Construction",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
@@ -92,16 +43,6 @@
             "name": "Alexander Sorloth",
             "role": "Head Railway Construction",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
@@ -109,34 +50,13 @@
             "name": "Jose Tyler",
             "role": "HR Department",
             "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
             ]
         },
         {
             "image": "/img/team-2.png",
             "name": "Henry Vincent",
             "role": "Construction Manager",
-            "social": [
-                {
-                    "link": "https://facebook.com/",
-                    "icon": "fa-brands fa-facebook-f",
-                    "title": "Facebook"
-                },
-                {
-                    "link": "https://twitter.com/",
-                    "icon": "fa-brands fa-twitter",
-                    "title": "Twitter"
-                }
-            ]
+            "social": []
         }
     ]
 }

@@ -7,8 +7,8 @@ category:
 
 #full details
 author:
-    name: "Jane Meldrum"
-    avatar: "/img/blog-author-img.jpg"
+    name: "Isabela"
+    avatar: "/img/blog-author-3.jpg"
 
 gallery:
     enabled: 1
