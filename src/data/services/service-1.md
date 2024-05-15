@@ -25,7 +25,7 @@ description0:
 gallery: 
   enabled: 1
   items:
-    - image: /img/gallery-3.jpeg
+    - image: /img/gallery-jobs.png
       alt: "image"       
 
 checklist:
