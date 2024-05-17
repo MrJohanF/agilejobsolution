@@ -3,60 +3,33 @@
     "title": "Meet The Expert Team",
     "items": [
         {
-            "image": "/img/team-3.png",
-            "name": "Henry Taylor",
-            "role": "Head Railway Construction",
+            "image": "/img/Andres.png",
+            "name": "Andres Hernandez",
+            "role": "Chief Technology Officer",
             "social": [
             
             ]
         },
         {
-            "image": "/img/team-1.png",
-            "name": "Edward Jeffrey",
-            "role": "Finance Department",
+            "image": "/img/Fernando.png",
+            "name": "Fernando Zea",
+            "role": "Chief Marketing Officer",
             "social": [
             ]
         },
         {
-            "image": "/img/team-2.png",
-            "name": "Nicholas Larry",
-            "role": "Railway Manager",
+            "image": "/img/Jose.png",
+            "name": "Jose Martinez",
+            "role": "Chief Executive Officer",
             "social": [
             ]
         },
         {
-            "image": "/img/team-3.png",
-            "name": "Stephen Jones",
-            "role": "Creative Worker",
+            "image": "/img/Isabel.png",
+            "name": "Isabel Rodriguez",
+            "role": "Office Assistant",
             "social": [
             ]
-        },
-        {
-            "image": "/img/team-1.png",
-            "name": "Eric Scot",
-            "role": "Cheif Railway Construction",
-            "social": [
-            ]
-        },
-        {
-            "image": "/img/team-2.png",
-            "name": "Alexander Sorloth",
-            "role": "Head Railway Construction",
-            "social": [
-            ]
-        },
-        {
-            "image": "/img/team-3.png",
-            "name": "Jose Tyler",
-            "role": "HR Department",
-            "social": [
-            ]
-        },
-        {
-            "image": "/img/team-2.png",
-            "name": "Henry Vincent",
-            "role": "Construction Manager",
-            "social": []
         }
     ]
 }
