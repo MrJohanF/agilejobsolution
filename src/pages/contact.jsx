@@ -198,15 +198,9 @@ const Contact = () => {
                     </ul>
                     <ul className="social-medias">
                         <li>
-                            <a className="fb" href="https://facebook.com/" target="_blank">
-                                <p>Facebook</p>
-                                <i className="fa-brands fa-facebook" />
-                            </a>
-                        </li>
-                        <li>
-                            <a className="tw" href="https://twitter.com/" target="_blank">
-                                <p>Twitter</p>
-                                <i className="fa-brands fa-twitter" />
+                            <a className="fb" href="https://www.linkedin.com/in/agilejobsolution/" target="_blank">
+                                <p>LinkedIn</p>
+                                <i class="fa-brands fa-linkedin" />
                             </a>
                         </li>
                     </ul>
