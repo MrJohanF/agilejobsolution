@@ -22,16 +22,22 @@ Below are screenshots showcasing the different sections and themes of the landin
 
 <h2 style="text-align: center;">Homepage</h2>
 
+<p align="center">
 <img src="https://github.com/user-attachments/assets/0a196d14-3bdd-4abc-afee-9489af0d45f6" width="500">
 <img src="https://github.com/user-attachments/assets/6971f8aa-b44c-400c-b7f5-a6d4c5b4e928" width="500">
+</p>
 
-### Services Section
+<h2 style="text-align: center;">Services Section</h2>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/13b768f4-675f-41f6-a1b3-82ef31a2b818" width="500">
 <img src="https://github.com/user-attachments/assets/8ba100bd-a7fd-4bcd-9eb4-cc3f6fc4d4f5" width="500">
+</p>
 
-### Footer
+<h2 style="text-align: center;">Footer</h2>
+<p align="center">
 <img src="https://github.com/user-attachments/assets/0f369272-78a5-4ddc-8c89-42ba84ec0d56" width="500">
 <img src="https://github.com/user-attachments/assets/2350ca9b-e8ee-4bdd-ac75-9c4077fd0a80" width="500">
+</p>
 
 ## Getting Started
 
